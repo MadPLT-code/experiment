@@ -2,34 +2,18 @@
 <html>
     <head>
         <title>Ruleset styles</title>
-        <style>
-            h1, h2, h3, h4 {
-                background-color: rgb(158, 211, 254);
-                font-size: 30px;
-            }
-            h1 {
-                text-decoration:line-through;
-            }
-        </style>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1 style="color: #5bc5cf;">
-            Heading <span style="color: #4187c0; text-decoration:line-through;">One</span>
+        <h1 style="color: #5bc5cf;" class="important">
+            Heading <span id="the-one">One</span>
         </h1>
-        <h2 style="color: #d73e6c;">Heading 2</h2>
-        <h3 style="color: #5bcf6b;">Heading 3</h3>
-        <h4 style="color: darksalmon;">Heading 4</h4>
-        <h1 style="color: #e6d8d8; background-color: #ca3ed7;">
-            Heading 1
-        </h1>
-        <h2 style="color: #e6d8d8; background-color: #c04141;">
-            Heading 2
-        </h2>
-        <h3 style="color: #e6d8d8; background-color: #ca3ed7;">
-            Heading 3
-        </h3>
-        <h4 style="color: #e6d8d8; background-color: #c04141;">
-            Heading 4
-        </h4>
+        <h2 style="color: #d73e6c;" class="uppercase">Heading 2</h2>
+        <h3 style="color: #5bcf6b;" class="important">Heading 3</h3>
+        <h4 style="color: darksalmon;" class="uppercase">Heading 4</h4>
+        <h1 class="important down-headings">Heading 1</h1>
+        <h2  class="down-headings uppercase">Heading 2</h2>
+        <h3 class="important down-headings">Heading 3</h3>
+        <h4 class="down-headings uppercase">Heading 4</h4>
     </body>
 </html>

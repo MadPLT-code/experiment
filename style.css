@@ -1,0 +1,26 @@
+h1, h2, h3, h4 {
+    font-size: 30px;
+}
+.important{
+    background-color: pink;
+}
+.down-headings{
+    color: aquamarine;
+}
+#the-one{
+    color: tomato;
+}
+.other-file{
+    color: cornflowerblue;
+    background-color: bisque;
+    font-size:30px;
+    margin: 0px;
+}
+.uppercase{
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color:darkseagreen;
+}
+.important{
+    background-color: pink;
+}
